@@ -3,8 +3,8 @@ from Add import *
 
 class TestFunction(unittest.TestCase):
     def test_addition(self):
-        result = add(3,5)
-        self.assertEqual(result,8)
+        result = add(3,6)
+        self.assertEqual(result,9)
 
     def test_addition_neg(self):
         result = add(-2,7)
